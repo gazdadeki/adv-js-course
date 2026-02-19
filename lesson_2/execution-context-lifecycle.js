@@ -1,10 +1,8 @@
 // ===== Global Execution Context =====
-console.clear();
 debugger;
 console.log("=== Global execution start ===");
 console.log(globalValue, 'globalValue');
 console.log(outer, 'outer in memory before declaration');
-console.log(outer(globalValue), 'outer invocation');
 
 var globalValue = 2;
 
