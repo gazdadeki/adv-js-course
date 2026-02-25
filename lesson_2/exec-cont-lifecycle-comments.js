@@ -11,6 +11,7 @@ console.clear();
   - outer exists in memory as a function reference            (function declaration)
   - result and result_two exist in memory but are: undefined  (var declarations)
 */
+
 debugger;
 
 console.log("=== Global execution start ===");
